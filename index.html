@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon | Acciojob</title>
+    <link rel="shortcut icon"
+        href="https://thumbs.dreamstime.com/b/amazon-logo-white-background-montreal-canada-july-printed-paper-98221126.jpg"
+        type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="header">
+        <nav class="header-nav">
+            <div class="header-container">
+                <img class="amazon-logo"
+                    src="https://mlsvc01-prod.s3.amazonaws.com/fd4e81f3101/a77159a6-cbf4-46a1-a731-522b77da3e42.png?ver=1649349594000"
+                    alt="Amazon Logo">
+                <div class="header-search">
+                    <input class="search-input" type="text">
+                    <button class="search-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="header-cart">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path
+                                d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                        </svg>
+                    </div>
+                    <p>Cart</p>
+                </div>
+            </div>
+            <div>
+
+            </div>
+        </nav>
+    </header>
+
+    <!--POPUP BRO-->
+
+    <!--popup 1-->
+    <div id="popup1" style="display: none;background-color: rgb(200, 69, 69); margin: 10px; width: 210px; padding: 10px; border-radius: 23px; position: absolute; top: 341px; left: 380px;">
+        <h2>CARBON FOOTPRINT</h2>
+        <P>3.062Kg CO2</P>
+        <p style="color: rgb(139, 224, 139);">A car travelling generate</p>
+        <p style="color: rgb(139, 224, 139);">the same amount!</p>
+        <div style="display: inline-block;">
+            <img style="margin: 10px; margin-right: 20px;"
+                src="https://media.istockphoto.com/id/172417586/photo/elegant-black-leather-shoes.jpg?s=612x612&w=0&k=20&c=c_tTljwbu2m0AGxwb27NxCgG0Y2Cv-C4v8q6V36RYbw="
+                alt="" height="60px" width="60px">
+            <img style="margin: 10px;"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl0YVKEOCeDUWh58IlsJODTOE0b59t-TW2FqYJ1_2N&s"
+                alt="" height="60px" width="60px">
+        </div>
+        <P>SAVE UP TO 3Kg CO2!</P>
+    </div>
+    <!--POPUP 2-->
+    <div id="popup2" style="display: none;background-color: rgb(200, 69, 69); margin: 10px; width: 210px; padding: 10px; border-radius: 23px; position: absolute; top: 341px; left: 750px;">
+        <h2>CARBON FOOTPRINT</h2>
+        <P>3.062Kg CO2</P>
+        <p style="color: rgb(139, 224, 139);">A car travelling generate</p>
+        <p style="color: rgb(139, 224, 139);">the same amount!</p>
+        <div style="display: inline-block;">
+            <img style="margin: 10px; margin-right: 20px;"
+                src="https://sc04.alicdn.com/kf/H764558a465144ce49c6264399cc58274Q/234483181/H764558a465144ce49c6264399cc58274Q.png"
+                alt="" height="60px" width="60px">
+            <img style="margin: 10px;"
+                src="https://i.pinimg.com/1200x/20/38/37/2038373259771fcc9e2742333586eaf7.jpg"
+                alt="" height="60px" width="60px">
+        </div>
+        <P>SAVE UP TO 3Kg CO2!</P>
+    </div>
+
+    <!-- SECTION 1 -->
+    <section class="section-1">
+        <div class="section-1-container">
+
+            <!--product 1-->
+            <div class="section-1-column" id="product1">
+                <h3>Brown Shining Lace-Up Designer Formal Shoes for Men</h3>
+                <img style="height: 200px;" id="q"
+                    src="https://i.pinimg.com/736x/d9/46/cb/d946cb08ff0ba7af0ae087adc039219c.jpg"
+                    alt="">
+                <div id="m">
+                    <div class="rectangle-parent">
+                        <div class="frame-child2"></div>
+                        <img class="blackshoes-1-icon" alt="" src="./public/blackshoes-1@2x.png" />
+
+                        <div class="carbon-footprint">CARBON FOOTPRINT</div>
+                        <div class="kg-co2">3.062Kg CO2</div>
+                        <div class="a-car-travelling">
+                            A car travelling generate the same amount!
+                        </div>
+                        <div class="save-up-to">SAVE UP TO 3KgCO2!</div>
+                        <div class="mens-running-shoes-container">
+                            <p class="mens-running-shoes">Mens Running Shoes</p>
+                        </div>
+                        <img class="blackshoes2-1-icon" alt="" src="./public/blackshoes2-1@2x.png" />
+
+                        <div class="dream-black-shoes">Dream Black Shoes</div>
+                        <div class="kgco2">10.76 KgCO2</div>
+                        <div class="kgco21">13.00 KgCO2</div>
+                    </div>
+                </div>
+                <p>See more</p>
+            </div>
+
+            <!--product 2-->
+            <div class="section-1-column" id="product2">
+                <h3>AASK Women Fit and Flare Dress</h3>
+                <img id="q"
+                    src="https://i.pinimg.com/736x/80/ff/cc/80ffccddaf6c9542eba919824de4a21d.jpg"
+                    alt="" style="height: 14rem; ">
+                <div id="m">
+                    <div class="rectangle-parent">
+                        <div class="frame-child2"></div>
+                        <img class="blackshoes-1-icon" alt="" src="./public/blackshoes-1@2x.png" />
+
+                        <div class="carbon-footprint">CARBON FOOTPRINT</div>
+                        <div class="kg-co2">3.062Kg CO2</div>
+                        <div class="a-car-travelling">
+                            A car travelling generate the same amount!
+                        </div>
+                        <div class="save-up-to">SAVE UP TO 3KgCO2!</div>
+                        <div class="mens-running-shoes-container">
+                            <p class="mens-running-shoes">Mens Running Shoes</p>
+                        </div>
+                        <img class="blackshoes2-1-icon" alt="" src="./public/blackshoes2-1@2x.png" />
+
+                        <div class="dream-black-shoes">Dream Black Shoes</div>
+                        <div class="kgco2">10.76 KgCO2</div>
+                        <div class="kgco21">13.00 KgCO2</div>
+                    </div>
+                </div>
+                <p>See more</p>
+            </div>
+            
+            <div class="section-1-column">
+                <h3>Shop & Pay | Earn rewards daily</h3>
+                <img id="q"
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Electronics/Clearance/Clearance_store_Desktop_CC_2x.SY608_CB628315133.jpg"
+                    alt="">
+                <div id="m">
+                    <div class="rectangle-parent">
+                        <div class="frame-child2"></div>
+                        <img class="blackshoes-1-icon" alt="" src="./public/blackshoes-1@2x.png" />
+
+                        <div class="carbon-footprint">CARBON FOOTPRINT</div>
+                        <div class="kg-co2">3.062Kg CO2</div>
+                        <div class="a-car-travelling">
+                            A car travelling generate the same amount!
+                        </div>
+                        <div class="save-up-to">SAVE UP TO 3KgCO2!</div>
+                        <div class="mens-running-shoes-container">
+                            <p class="mens-running-shoes">Mens Running Shoes</p>
+                        </div>
+                        <img class="blackshoes2-1-icon" alt="" src="./public/blackshoes2-1@2x.png" />
+
+                        <div class="dream-black-shoes">Dream Black Shoes</div>
+                        <div class="kgco2">10.76 KgCO2</div>
+                        <div class="kgco21">13.00 KgCO2</div>
+                    </div>
+                </div>
+                <p>See more</p>
+            </div>
+            <div class="section-1-column">
+                <h3>Sign in for your best experience</h3>
+                <button>Sign in securely</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 2 - Related Items -->
+    <section class="section-2">
+        <div class="section-2-container">
+            <h3>Related to items you've viewed</h3>
+            <div class="product-cards">
+                <div class="product-card">
+                    <img src="https://m.media-amazon.com/images/I/61Y30DpqRVL.AC_SY400.jpg" alt="">
+                </div>
+                <div class="product-card">
+                    <img src="https://m.media-amazon.com/images/I/61LNnZPoKPS.AC_SY400.jpg" alt="">
+                </div>
+                <div class="product-card">
+                    <img src="https://m.media-amazon.com/images/I/71iiXU7HHkL.AC_SY400.jpg" alt="">
+                </div>
+                <div class="product-card">
+                    <img src="https://m.media-amazon.com/images/I/61XZQXFQeVL.AC_SY400.jpg" alt="">
+                </div>
+                <div class="product-card">
+                    <img src="https://m.media-amazon.com/images/I/712B4P3yOnL.AC_SY400.jpg" alt="">
+                </div>
+                <div class="product-card">
+                    <img src="https://m.media-amazon.com/images/I/51eTOVYRbTL.AC_SY400.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 2 - Groceries -->
+    <section class="section-2">
+        <div class="section-2-container">
+            <h3>Best Sellers in Grocery & Gourmet Foods</h3>
+            <div class="product-cards">
+                <div class="product-card">
+                    <img src="https://m.media-amazon.com/images/I/617tvTiZLGL.AC_SY400.jpg" alt="">
+                </div>
+                <div class="product-card">
+                    <img src="https://m.media-amazon.com/images/I/51tNket0w8L.AC_SY400.jpg" alt="">
+                </div>
+                <div class="product-card">
+                    <img src="https://m.media-amazon.com/images/I/91oNY+gNzPL.AC_SY400.jpg" alt="">
+                </div>
+                <div class="product-card">
+                    <img src="https://m.media-amazon.com/images/I/81NrftYFxsL.AC_SY400.jpg" alt="">
+                </div>
+                <div class="product-card">
+                    <img src="https://m.media-amazon.com/images/I/61uohjMdfzL.AC_SY400.jpg" alt="">
+                </div>
+                <div class="product-card">
+                    <img src="https://m.media-amazon.com/images/I/61oagbcgAtS.AC_SY400.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3 -->
+    <section class="section-3">
+        <section class="section-3-container">
+            <h3>Inspired by your browsing history</h3>
+            <div class="product-detail-cards">
+                <div class="product-detail-card">
+                    <div class="product-detail-img">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/I/61aUBxqc5PL.AC_UL320_SR320,320.jpg"
+                            alt="">
+                    </div>
+                    <a class="product-detail-link" href="./product.html">2021 Apple MacBook Pro (16-inch//41.05 cm,
+                        Apple M1 Max chip with 10‑core CPU and 32‑core GPU, 32GB RAM, 1TB SSD) - Space Grey</a>
+                    <p>
+                        <strong class="product-price">₹ 3,99,999.00</strong>
+                    </p>
+                    <p class="product-deliver-by">Get it by <strong>Monday, August 22</strong>
+                        FREE Delivery over ₹499. Fulfilled by Amazon.
+                    </p>
+                </div>
+                <div class="product-detail-card">
+                    <div class="product-detail-img">
+                        <img src="https://m.media-amazon.com/images/I/71ZOtNdaZCL.AC_UY436_FMwebp_QL65.jpg" alt="">
+                    </div>
+                    <a class="product-detail-link" href="./product.html">2021 Apple MacBook Pro (16-inch//41.05 cm,
+                        Apple M1 Max chip with 10‑core CPU and 32‑core GPU, 32GB RAM, 1TB SSD) - Space Grey</a>
+                    <p>
+                        <strong class="product-price">₹ 3,99,999.00</strong>
+                    </p>
+                    <p class="product-deliver-by">Get it by <strong>Monday, August 22</strong>
+                        FREE Delivery over ₹499. Fulfilled by Amazon.
+                    </p>
+                </div>
+                <div class="product-detail-card">
+                    <div class="product-detail-img">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/I/61LNnZPoKPS.AC_UL320_SR320,320.jpg"
+                            alt="">
+                    </div>
+                    <a class="product-detail-link" href="./product.html">2021 Apple MacBook Pro (16-inch//41.05 cm,
+                        Apple M1 Max chip with 10‑core CPU and 32‑core GPU, 32GB RAM, 1TB SSD) - Space Grey</a>
+                    <p>
+                        <strong class="product-price">₹ 3,99,999.00</strong>
+                    </p>
+                    <p class="product-deliver-by">Get it by <strong>Monday, August 22</strong>
+                        FREE Delivery over ₹499. Fulfilled by Amazon.
+                    </p>
+                </div>
+                <div class="product-detail-card">
+                    <div class="product-detail-img">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/I/71hmqIQJFdL.AC_UL320_SR320,320.jpg"
+                            alt="">
+                    </div>
+                    <a class="product-detail-link" href="./product.html">2021 Apple MacBook Pro (16-inch//41.05 cm,
+                        Apple M1 Max chip with 10‑core CPU and 32‑core GPU, 32GB RAM, 1TB SSD) - Space Grey</a>
+                    <p>
+                        <strong class="product-price">₹ 3,99,999.00</strong>
+                    </p>
+                    <p class="product-deliver-by">Get it by <strong>Monday, August 22</strong>
+                        FREE Delivery over ₹499. Fulfilled by Amazon.
+                    </p>
+                </div>
+                <div class="product-detail-card">
+                    <div class="product-detail-img">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/I/71eknZxZLmL.AC_UL320_SR320,320.jpg"
+                            alt="">
+                    </div>
+                    <a class="product-detail-link" href="./product.html">2021 Apple MacBook Pro (16-inch//41.05 cm,
+                        Apple M1 Max chip with 10‑core CPU and 32‑core GPU, 32GB RAM, 1TB SSD) - Space Grey</a>
+                    <p>
+                        <strong class="product-price">₹ 3,99,999.00</strong>
+                    </p>
+                    <p class="product-deliver-by">Get it by <strong>Monday, August 22</strong>
+                        FREE Delivery over ₹499. Fulfilled by Amazon.
+                    </p>
+                </div>
+                <div class="product-detail-card">
+                    <div class="product-detail-img">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/I/91k86Cdp1uL.AC_UL320_SR320,320.jpg"
+                            alt="">
+                    </div>
+                    <a class="product-detail-link" href="./product.html">2021 Apple MacBook Pro (16-inch//41.05 cm,
+                        Apple M1 Max chip with 10‑core CPU and 32‑core GPU, 32GB RAM, 1TB SSD) - Space Grey</a>
+                    <p>
+                        <strong class="product-price">₹ 3,99,999.00</strong>
+                    </p>
+                    <p class="product-deliver-by">Get it by <strong>Monday, August 22</strong>
+                        FREE Delivery over ₹499. Fulfilled by Amazon.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- SECTION 4 -->
+    <section class="section-4">
+        <div class="section-4-container">
+            <p>See personalized recommendations</p>
+            <button>Sign in</button>
+            <p>New customer? Start here.</p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <code>Amazon</code>
+    </footer>
+
+    
+    <script>
+        $(document).ready(function() {
+            $('#product1').hover(function() {
+                $('#popup1').show();
+            }, function() {
+                $('#popup1').hide();
+            });
+
+            $('#product2').hover(function() {
+                $('#popup2').show();
+            }, function() {
+                $('#popup2').hide();
+            });
+        });
+    </script>
+
+</body>
+
+</html>
